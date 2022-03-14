@@ -6,7 +6,6 @@ The chat box will prompt you to enter personal information, such as name, locati
 
 Since email validation is required (for privacy and security concern), SES is currently closed. If you would like to use website and receive email. Please send me your email address, and I will add you to the validated email list. 
 
-
 ## Inspiration
 From user's perspective, current vaccine appointment procedure requires lots of input. We need to input lots of information before we see the available timeslots. it is not very efficient.
 
@@ -29,7 +28,11 @@ Website: http://vaccinationservicebucket.s3-website-us-east-1.amazonaws.com/
 
 3. Lambda: Create lambda functions for backend
 
-4. LEX (V1): Perform chat operation (text request from users and message response from LEX). 
+4. LEX (V1): Perform chat operation such as greeting and vaccination location request. Retrieve information from users and send back message response from LEX. 
+
+5. store data scrapped from external API
+
+6. SES: Amazon Simple Email Service is applied to send email to the user
  
  
 **AWS: awsconfig**

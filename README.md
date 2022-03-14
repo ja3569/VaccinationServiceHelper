@@ -1,4 +1,11 @@
 # VaccinationServiceHelper
+This is a static website hosted by amazon web services. 
+
+If you enter a message like “Where can I get vaccination”
+The chat box will prompt you to enter personal information, such as name, location, email, zip code and the vaccine you would like to receive. Then, it will automatically send you an email, entailing all of the information. 
+
+Since email validation is required (for privacy and security concern), SES is currently closed. If you would like to use website and receive email. Please send me your email address, and I will add you to the validated email list. 
+
 
 ## Inspiration
 From user's perspective, current vaccine appointment procedure requires lots of input. We need to input lots of information before we see the available timeslots. it is not very efficient.
